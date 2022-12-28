@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Budloks Nuker</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="shortcut icon" href="https://cdn.discordapp.com/attachments/924062251894329345/1044755978811355196/2dawdawDDXD.png"/>
+</head>
+<body>
+<!-- menu -->
+  <div class="menu">
+    <a id="kontakt" href="#kontakt" onclick="openModal()" class="menu-item">Kontakt</a>
+    <a href="pomoc.html" class="menu-item">Pomoc</a>
+  </div>
+  <!-- okienko kontakt html -->
+<div id="modal" class="modal">
+  <div class="modal-content">
+    <p>E-Mail Kontaktowy: budloksnuker@gmail.com</p>
+    <button id="close-modal" class="btn btn-close modal-content">✖</button>
+  </div>
+</div>
+<!-- przyciski -->
+  <div class="container">
+    <h1>Budloks Nuker v0.0.1</h1>
+    <p>Kliknij poniższy przycisk, aby dodać bota do serwera Discord lub pobrać nukera.</p>
+    <div class="button-container">
+      <button class="button" onclick="window.open('https://discord.com/api/oauth2/authorize?client_id=1051951018230951937&permissions=8&scope=bot%20applications.commands')">Dodaj Bota</button>
+      <button class="button" onclick="window.open('https://www.mediafire.com/file/b202291hyhlfghj/budloksnuker-v0.0.1.zip/file')" style="margin-top: 10px;">Pobierz</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
