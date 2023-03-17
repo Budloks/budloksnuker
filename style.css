@@ -35,7 +35,7 @@ button {
   background: #333333;
   border: none;
   cursor: pointer;
-  transition: all 0.5s;
+  transition: all 0.4s ease-out;
   border-radius: 20px;
   padding: 20px 25px;
 }
